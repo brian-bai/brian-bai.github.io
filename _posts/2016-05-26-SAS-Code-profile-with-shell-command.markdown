@@ -1,8 +1,23 @@
 ---
 layout: post
 title:  "SAS code profile with shell command"
-date:   2016-05-26 01:13:05 +0000nalysis starts:
+date:   2016-05-26 01:13:05 +0000
 
+categories: linux shell
+---
+- How many lines of code have you written?
+- What procedure have you used?
+
+Such kind of questions are often asked in an interview for technical position.
+Recently, our project is looking forward to hire a new resource.
+When I asked this question to the candidates, I was also wondering how big my current project is.
+
+So I decided to have a look at the current projet code base.I have done the similar analysis before for other projects using Java or Python. For I am working on my linux laptop recently, I used shell command this time.
+
+
+## Analysis step
+
+{% highlight shell %} 
 #total lines
 find ./ -type f -name *.sas | xargs cat | wc -l
 >107689
@@ -30,14 +45,14 @@ expr $((66113/518))
 >127
 
 #how many proc used
-find ./ -type f -name *.sas | xargs /home/brian/github/dev_tips/remove_sas_comment.sh | grep -v '^\s*$' | grep -i '^\s*proc\s' | wc -l
+find ./ -type f -name *.sas | xargs remove_sas_comment.sh | grep -v '^\s*$' | grep -i '^\s*proc\s' | wc -l
 >2800
 
 #list the proc
-find ./ -type f -name *.sas | xargs /home/brian/github/dev_tips/remove_sas_comment.sh | grep -v '^\s*$' | grep -i '^\s*proc\s' | awk '{print $2;}' |sort > procs.txt
+find ./ -type f -name *.sas | xargs remove_sas_comment.sh | grep -v '^\s*$' | grep -i '^\s*proc\s' | awk '{print $2;}' |sort > procs.txt
 
 #how many data step used
-find ./ -type f -name *.sas | xargs /home/brian/github/dev_tips/remove_sas_comment.sh | grep -v '^\s*$' | grep -i '^\s*data\s' |wc -l
+find ./ -type f -name *.sas | xargs remove_sas_comment.sh | grep -v '^\s*$' | grep -i '^\s*data\s' |wc -l
 >2054
 
 #unique proc
@@ -81,18 +96,23 @@ tr -cs "[:alpha:]" "\n" < procs.txt | tr "[:lower:]" "[:upper:]" | uniq -c | sor
 #unique proc number
 tr -cs "[:alpha:]" "\n" < procs.txt | tr "[:lower:]" "[:upper:]" | uniq | wc -l
 >33
+{% endhighlight %}
 
-```
+## Result
+The top 10 procedure is below:
 
-categories: linux shell
----
-How many lines of code have you written?
-What procedure have you used?
-Such kind of questions are often asked in an interview for technical position.
-Recently, our project is looking forward to hire a new resource.
-When I asked this question to the candidates, I was also wondering how big my current project is.
-So I decided to have a look at the current projet code base.I have done the similar analysis before for other projects using Java or Python. For I am working on my linux laptop recently, I used shell command this time.
+{% highlight shell %} 
 
+1258 SQL
+ 439 SORT
+ 247 DATASETS
+ 186 PRINTTO
+ 107 TRANSPOSE
+ 100 RISK
+  71 APPEND
+  67 CONTENTS
+  55 COMPILE
+  43 FORMAT
+{% endhighlight %}
 
-
-
+From this we know the *SQL* and *SORT* and *TRANSPOSE* proc are used most often for data wrangling in this SAS project. Proc *RISK* is here for this project is for Risk anlalysis.
