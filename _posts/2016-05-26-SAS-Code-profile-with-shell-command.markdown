@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "SAS code profile with shell command"
-date:   2016-05-26 01:13:05 +0000
 
 categories: linux shell
 ---

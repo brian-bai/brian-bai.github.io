@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "SAS Log anaysis with pandas"
-date:   2016-05-27 02:13:05 +0000
 
 categories: python pandas
 ---
@@ -58,4 +57,5 @@ fig.savefig('Weekly_performance.png', bbox_inches='tight')
 
 ## Result
 From the plot, we know it's the position table step increased most fast.
+
 With Pandas, it's a few lines of code to make it visible. Life is short, we can use Pandas to make the job quick and beauty.
