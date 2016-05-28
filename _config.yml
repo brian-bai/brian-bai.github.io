@@ -7,7 +7,7 @@
 
 # Site settings
 title: Life Is Short 
-email: brian.baitq@gmail.com
+email: baitq@outlook.com
 description: > # this means to ignore newlines until "baseurl:"
   This blog is my personal blog about DataScience, Python, Spark. 
 baseurl: "" # the subpath of your site, e.g. /blog

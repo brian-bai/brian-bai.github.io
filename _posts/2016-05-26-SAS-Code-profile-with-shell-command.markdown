@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: default
 title:  "SAS code profile with shell command"
 
-categories: linux shell
+categories: linux
 ---
 - How many lines of code have you written?
 - What procedure have you used?
