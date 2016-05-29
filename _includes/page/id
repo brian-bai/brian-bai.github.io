@@ -1,1 +1,0 @@
-page-{{ page.url | replace_first:'/','' | replace:'/index.html','' | replace:'/', '-' | replace:'.html', '' }}

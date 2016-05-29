@@ -6,14 +6,49 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Life Is Short 
-email: baitq@outlook.com
-description: > # this means to ignore newlines until "baseurl:"
-  This blog is my personal blog about DataScience, Python, Spark. 
+title: BaiTq
+brief-intro: Life Is Short
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://brian-bai.github.io" # the base hostname & protocol for your site
-twitter_username: Brian_Bai 
+
+permalink: /:year/:month/:day/:title/
+
+# other links
+twitter_username: Brian_Bai6
+facebook_username: brian
 github_username:  brian-bai
+email: baitq@outlook.com
+
+description_footer: My path to Data Science.
+
+# comments
+# two ways to comment, only choose one, and use your own short name
+disqus_shortname: baitq
+
+# statistic analysis 统计代码
+# 百度统计 id，将统计代码替换为自己的百度统计id，即
+# hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
+# xxxxx字符串
+#baidu_tongji_id: 
+#google_analytics_id:  # google 分析追踪id
 
 # Build settings
 markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# port
+# port: 1234
+
+# url
+category_dir: category/
+tag_dir: tag/
+
+# excerpt
+excerpt_separator: "\n\n\n\n"
+
+# paginate
+gems: [jekyll-paginate]
+paginate: 5

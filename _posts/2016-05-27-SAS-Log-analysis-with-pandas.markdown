@@ -3,6 +3,7 @@ layout: default
 title:  "SAS Log anaysis with pandas"
 
 categories: pydata
+tags: python pandas
 ---
 One of my routine tasks is to support the product system that executing critical calculation in SAS Platform daily.
 We have customized a well defined log system to tracing and profiling the system.
