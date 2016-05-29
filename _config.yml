@@ -14,8 +14,8 @@ url: "http://brian-bai.github.io" # the base hostname & protocol for your site
 permalink: /:year/:month/:day/:title/
 
 # other links
-twitter_username: Brian_Bai6
-facebook_username: brian
+twitter_username: Brian_Bai
+#facebook_username: brian
 github_username:  brian-bai
 email: baitq@outlook.com
 
