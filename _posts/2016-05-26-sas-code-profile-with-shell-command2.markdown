@@ -3,7 +3,7 @@ layout: post
 title:  "SAS code profile with shell command"
 date: 2015-05-26 21:00
 categories: linux
-tags: linux
+tags: linux shell sed
 ---
 - How many lines of code have you written?
 - What procedure have you used?

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "SAS code profile with shell command"
-date: 2015-05-26 21:00
+date: 2015-05-26 21:00:00
 categories: linux
 tags: linux shell sed
 ---
