@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "SAS Log anaysis with pandas"
 date: 2016-05-27 21:00:00
 categories: pydata
