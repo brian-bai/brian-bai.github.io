@@ -21,10 +21,7 @@ In the step, I will inspect the following things:
 ```python
 import numpy as np
 import pandas as pd
-#import os
 import matplotlib.pyplot as plt
-#from scipy.stats import gaussian_kde
-#import time
 import seaborn as sns 
 %matplotlib inline
 ```
