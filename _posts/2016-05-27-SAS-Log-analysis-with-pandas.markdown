@@ -11,10 +11,10 @@ We have customized a well defined log system to tracing and profiling the system
 
 I have done several scripts in python to analyze the logs and extract information about the status of the system.
 One issue oberserved is the total time span for one calculation increased steadly.
-To figure out the bottle neck of this issue I done an analysis in python and pandas.
+To figure out the bottle neck of this issue I did an analysis in python and pandas.
 
 ## Why Python and Pandas
-We have some built in performance report to monitor the system. But parse the log for ad hoc analysis in SAS is feasible but not easy.
+We have some built in performance report to show the system monitor result. But parsing the log for ad hoc analysis in SAS is feasible but not easy.
 With python, its easy to parse the log and extract performance information from log files.
 
 Pandas has built in time series and plotting functions that enable a quick analysis and result reporting.
