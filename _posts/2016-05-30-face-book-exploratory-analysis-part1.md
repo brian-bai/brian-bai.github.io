@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Facebook Check Ins competition part1: exploratory analysis"
-data: 2016-05-30 21:00:00
+date: 2016-05-30 21:00:00
 category: pydata
 tags: python pandas kaggle
 ---
