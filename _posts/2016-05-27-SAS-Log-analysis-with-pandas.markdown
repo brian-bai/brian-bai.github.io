@@ -13,6 +13,8 @@ I have done several scripts in python to analyze the logs and extract informatio
 One issue oberserved is the total time span for one calculation increased steadly.
 To figure out the bottle neck of this issue I did an analysis in python and pandas.
 
+
+
 ## Why Python and Pandas
 We have some built in performance report to show the system monitor result. But parsing the log for ad hoc analysis in SAS is feasible but not easy.
 With python, its easy to parse the log and extract performance information from log files.

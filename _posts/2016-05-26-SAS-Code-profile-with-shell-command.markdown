@@ -12,7 +12,8 @@ tags: linux shell sed
 Such kind of questions are often asked in an interview for technical position.
 Recently, our project is looking forward to hire a new resource.
 When I asked the candidates this question, I was also wondering how big my current project is.
-\n\n\n\n
+
+
 
 So I decided to have a look at the current projet code base.I have done the similar analysis before for other projects using Java or Python. For I am working on my linux laptop recently, I used shell command this time.
 
