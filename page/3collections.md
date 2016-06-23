@@ -24,6 +24,9 @@ icon: bookmark
 * [R-Blogger](http://www.r-bloggers.com/)
 * [OpenIntro Statistics](https://www.openintro.org/stat/labs.php)
 * [CookBook-Graph](http://www.cookbook-r.com/)
+* [Quick-R](http://www.statmethods.net/)
+* [R packages](http://www.rdocumentation.org/)
+* [R site search](http://finzi.psych.upenn.edu/search.html)
 * [Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/)
 * [RStudio Blog](https://blog.rstudio.org/)
 * [Advanced R](http://adv-r.had.co.nz/)
@@ -53,6 +56,7 @@ icon: bookmark
 * [Analytics Vidhya](http://www.analyticsvidhya.com/)
 * [Stanford Network Analysis Project](http://snap.stanford.edu/index.html)
 * [Data Science Central](http://www.datasciencecentral.com/)
+* [KDnuggets](http://www.kdnuggets.com/)
 
 
 ## Deep Learning
@@ -62,6 +66,26 @@ icon: bookmark
 * [Caffe](http://caffe.berkeleyvision.org/)
 * [Deep Learning Tutorial](http://ufldl.stanford.edu/tutorial/)
 * [Convolutional Neural Network for Visual Recognition](http://cs231n.stanford.edu/)
+* [Deep Learning](http://deeplearning.net/)
+
+## DevOps
+
+* [docker](https://docs.docker.com/)
+* [Vagrant](https://www.vagrantup.com/docs/)
+* [Ansible](http://docs.ansible.com/ansible/index.html)
+* [Unix Toolbox](http://cb.vu/unixtoolbox.xhtml)
+
+## Cloud Service
+
+* [AWS](http://aws.amazon.com/)
+* [note](http://note.youdao.com/)
+* [github](https://github.com/)
+* [bitbucket](https://bitbucket.org/)
+
+## Ask
+
+* [Quora](https://www.quora.com/)
+* [StackOverflow](http://stackoverflow.com/)
 
 ## Comments
 
