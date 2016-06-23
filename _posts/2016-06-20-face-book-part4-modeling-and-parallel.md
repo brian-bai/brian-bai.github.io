@@ -10,7 +10,7 @@ tags: R kaggle parallel
 ## Overview
 This is the fourth part of my kaggle competition [Facebook V: Predicting Check Ins](https://www.kaggle.com/c/facebook-v-predicting-check-ins).
 
-In the step, I will process the data for modeling. The competition will be end soon. A common solution that discussed a lot in the forum is to split the data to small blocks and apply machine learning method on each block. In this post, I will try this method and check the multicore processing to accerlate the process time.
+In the step, I will process the data for modeling. The competition will be end soon. A common solution that discussed a lot in the forum is to split the data to small blocks and apply machine learning method on each block. In this post, I will try this method and check the multicore processing to accelerate the process time.
 
 
 
@@ -110,6 +110,7 @@ outlog('Generater end at ')
 
 
 It takes about 2 hours and 53 minutes without parallel processing.
+
 ## Parallel processing
 R package foreach can be used to do parallel processing on multicore machine.
 We modify the block_model function first to enable the usage in parallel processing. Then use foreach to do parallel processing.
@@ -173,10 +174,6 @@ outlog("Parallel end at: ")
 
 ```
 
-    Loading required package: iterators
-    Loading required package: parallel
-
-
     Nodes: 8 2016-06-20 16:42:42.212 
     Parallel start at:  2016-06-20 16:42:42.216 
     Parallel end at:  2016-06-20 18:21:30.135 
@@ -184,7 +181,7 @@ outlog("Parallel end at: ")
 
 
 
-It takes about 1 hours and 39 minutes with parallel processing on a 8 core machine.
+It takes about 1 hours and 39 minutes with parallel processing on a 8 core machine. There's a significant improvement on the processing time when compare it with the single process mode.
 
 ## Generate submission
 Merge all the result files to get the submission.
