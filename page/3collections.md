@@ -28,6 +28,7 @@ icon: bookmark
 * [R packages](http://www.rdocumentation.org/)
 * [R site search](http://finzi.psych.upenn.edu/search.html)
 * [Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/)
+* [Statistical Computing](http://www.ats.ucla.edu/stat/)
 * [RStudio Blog](https://blog.rstudio.org/)
 * [Advanced R](http://adv-r.had.co.nz/)
 * [Forecasting:principles and practice](https://www.otexts.org/book/fpp)
@@ -73,6 +74,11 @@ icon: bookmark
 * [docker](https://docs.docker.com/)
 * [Vagrant](https://www.vagrantup.com/docs/)
 * [Ansible](http://docs.ansible.com/ansible/index.html)
+* [Infoq](https://www.infoq.com/devops/)
+
+## Linux
+
+* [Linux and open source](https://www.linux.com)
 * [Unix Toolbox](http://cb.vu/unixtoolbox.xhtml)
 
 ## Cloud Service
