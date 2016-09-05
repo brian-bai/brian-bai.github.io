@@ -10,6 +10,9 @@ tags: Spark
 ## Overview
 Spark is hot now. Though Spark is a big data technology, it can be used local with small spec requirement. The notebook is an excellent tool to do exploratory analysis. These two can be setup together.
 
+
+
+
 ## Env
 This is the memo of my own setup. Jupyter and Python 3.5 already installed.
 Jupyter 4.1.0
